@@ -1,0 +1,19 @@
+:root {
+  font-size: 18px;
+  --text-primary: #6a607f; /*used for navigation bar (inactive)*/
+  --text-secondary: #0010eb; /*used for navigation bar (active)*/
+  --bg-primary: 	#f5da87; /*set color for primary background and is inherited for elements in the document*/
+  --bg-secondary: #9cb7e2; /*set color for secondary background and is inherited for elements in the document*/
+  scroll-behavior: smooth; /*scroll behaviour for buttons/ links on webpage*/
+  --transition-speed: 300ms; /*general speed for the sliding navigation bar*/
+}
+/*colour of background and text.*/
+/*make sure padding and margin is zero to make it absolute*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ebe6c931;
+  color: black;
+  font-family: "Bitter", serif;
+  line-height: 2rem;
+}

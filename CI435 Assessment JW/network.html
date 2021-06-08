@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>network security </title>
+    
+    <!--Font from: Google Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&family=Open+Sans:wght@700&family=Oswald&display=swap" rel="stylesheet">
+    
+    <!-- CSS files-->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="normalize.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
+</head>
+
+<body>
+    
+    <a href="#top" class="toTop">TOP</a>
+
+    
+    <header class="banner"><!--The main heading for the page -->
+		<h1>Network Security</h1> 
+		<h2></h2>
+        <a id="top"></a>
+    </header>
+    
+<!--navigation menu -->
+<nav class="navbar">
+    <ul class="navbar-nav">
+        <li class="logo">
+            <a title="Cyber Security" href="index.html" class="nav-link" >
+                <span class="link-text">Cyber Security</span>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                aria-hidden="true"
+                     focusable="false"
+                     data-prefix="fad"
+                     data-icon="book-open"
+                     role="img"
+                     class="icon"><!-- Font Awesome Free 5.15.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path fill=currentColor d="M512 176.001C512 273.203 433.202 352 336 352c-11.22 0-22.19-1.062-32.827-3.069l-24.012 27.014A23.999 23.999 0 0 1 261.223 384H224v40c0 13.255-10.745 24-24 24h-40v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24v-78.059c0-6.365 2.529-12.47 7.029-16.971l161.802-161.802C163.108 213.814 160 195.271 160 176 160 78.798 238.797.001 335.999 0 433.488-.001 512 78.511 512 176.001zM336 128c0 26.51 21.49 48 48 48s48-21.49 48-48-21.49-48-48-48-48 21.49-48 48z" class="fa-primary"/></svg>
+            </a>
+        </li>
+
+
+        <li class="nav-item">
+            <a title="Computing Security" href="computing.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="pencil-alt"
+                    role="img" 
+                    class="icon" ><path fill=currentColor d="M288 248v28c0 6.6-5.4 12-12 12H108c-6.6 0-12-5.4-12-12v-28c0-6.6 5.4-12 12-12h168c6.6 0 12 5.4 12 12zm-12 72H108c-6.6 0-12 5.4-12 12v28c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-28c0-6.6-5.4-12-12-12zm108-188.1V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V48C0 21.5 21.5 0 48 0h204.1C264.8 0 277 5.1 286 14.1L369.9 98c9 8.9 14.1 21.2 14.1 33.9zm-128-80V128h76.1L256 51.9zM336 464V176H232c-13.3 0-24-10.7-24-24V48H48v416h288z" class="fa-primary"/>
+            
+              </svg>
+                <span class="link-text">computing</span>
+            </a>
+        </li>
+
+
+        <li class="nav-item">
+            <a title="Information Security" href="information.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="pencil-alt"
+              role="img" 
+              class="icon" ><path fill=currentColor d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z" class="fa-primary" /></svg>
+                    
+                </svg>
+                <span class="link-text">information</span>
+            </a>
+        </li>
+        
+
+        <li class="nav-item">
+            <a title="Network Security" href="network.html" class="nav-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="pencil-alt"
+              role="img" 
+              class="icon" ><path fill=currentColor d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z" class="fa-primary" />/></svg>
+
+                <span class="link-text">network</span>
+        
+            </a>
+            <li class="nav-item">
+              <a title="Contact Me" href="contact.html" class="nav-link">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fad"
+              data-icon="pencil-alt"
+              role="img" 
+              class="icon" ><path fill=currentColor d="M568.482 177.448L424.479 313.433C409.3 327.768 384 317.14 384 295.985v-71.963c-144.575.97-205.566 35.113-164.775 171.353 4.483 14.973-12.846 26.567-25.006 17.33C155.252 383.105 120 326.488 120 269.339c0-143.937 117.599-172.5 264-173.312V24.012c0-21.174 25.317-31.768 40.479-17.448l144.003 135.988c10.02 9.463 10.028 25.425 0 34.896zM384 379.128V448H64V128h50.916a11.99 11.99 0 0 0 8.648-3.693c14.953-15.568 32.237-27.89 51.014-37.676C185.708 80.83 181.584 64 169.033 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48v-88.806c0-8.288-8.197-14.066-16.011-11.302a71.83 71.83 0 0 1-34.189 3.377c-7.27-1.046-13.8 4.514-13.8 11.859z" class="fa-primary"/></svg>
+                  <span class="link-text">Contact/share</span>
+          
+              </a>
+        </li>
+
+        
+
+        
+        
+    </ul>
+
+</nav> <!-- end of navigation -->
+
+<main id="wrapper" ><!-- start of main content -->
+    <article>
+        <h2>What is a Network</h2>
+
+            <p>
+                A network consists of 2 or more computers, which are connected by either cable or wifi. The computers that are linked through the network are able to access other resources (such as shared files, printers and programs). Some computer networks use a server, which is essentially a very powerful computer that acts as the central core of the network. Servers can provide many useful services such as email addresses, internet access and a place to store files which can be used by computers connected to them. Did you know that the internet is one big network that many of us use everyday?
+
+            </p>
+            <figure>
+                <img src="images\800px-Sample-network-diagram.png" class="floatright"alt="network"  style="text-align: center; padding-bottom: 15px; padding-left: 15px; width:50%">
+                
+            </figure>
+            <p>
+                The 2 most common types of networks are Local Area Network (LAN) and Wide Area Network (WAN) however, there are others that are used as well such as virtual private networks (VPN), campus area network (CAN) and metropolitan area network (MAN). This section will mainly be focusing on LAN/WAN and if you would like to read about other types of networks you can visit <a target="blank" href="https://www.belden.com/blogs/network-types">here</a>. A LAN is a much smaller network in comparison to WAN and is limited to confined areas such as a school or company building. The computers connected to the LAN are designated as servers or workstations. Servers in this context, are the same as stated above and are rarely used by humans. Workstations are the devices(i.e. desktop, laptop, IPad, mobile phone, etc)  that are used by people to access the network and its services on a daily basis. On a single LAN, workstations and servers may be connected through cables or wireless networking with the use of wireless access points also known as WAPs, which connect workstations to the network router over greater wireless distances. However, the majority of servers are connected to the network using cables as it is much faster than using wireless connection.Workstation connections vary depending on the device. Usually as a desktop should be connected to a network via cable while a laptop can be connected via cable or wireless, etc. 
+
+            </p>
+
+            <p>
+                WANs are very similar to LANs but connect networks in larger areas such as a city, country or even around the entire world. This is done through the use of satellites, using satellite uplinks or transoceanic cabling. WANs can be used to communicate long distances through the use of bridges and routers to connect local and metropolitan networks to global networks (i.e. the internet). 
+            </p>
+
+    </article>
+
+    <article>
+        <h2>What is Network Security</h2>
+            <p>
+                Network security is all about taking preventive measures, both in software and hardware, to protect the network. It ensures the safety of client data and information, security of your shared data, reliable performance and accessibility to the network. It is the act of protecting the network from cyber threats. By having these preventative measures in place, companies are able to in turn protect themselves along with speeding up the recovery process if they are attacked and data is potentially leaked. Using a password is a prime example for protecting your data. 
+            </p>
+    </article>
+
+    <article>
+    <h2> Protecting Your Network</h2>
+        <h3>Antivirus & anti malware software</h3>
+            <p>
+                Backups, Encryption, Firewalls, Virus and malware detection and prevention can all be put to use by good antivirus and antimalware software. Nowadays both serve many purposes and will be the go to for keeping your devices and network safe both locally and when connected to the web.<img  class= "floatright" src="images\antivirus.jpg" alt="antivirus" width="40%" height="auto"> Antivirus and antimalware software work by scanning your device and browser for any malicious activity that may have or could take place. If a threat is found you will be informed and actions can be taken manually or automatically, depending on how the service is set up. Your information stored on your computer and network should always be safe so long as you have a reputable and proven, up-to-date antivirus and/or anti malware software. 
+                
+
+        <h3>Virtual Private Network(VPN) </h3>
+            <p>
+              
+                Virtual private networks, also known as VPNs, are encrypted network connections which protect data in transit (i.e. going across untrustworthy networks or the internet). VPNs provide a layer of defence against poorly designed internal services as well as keeping your internet traffic hidden from attackers and even your own internet service provider! VPNs are capable of hiding your network and location due to it altering your IP address which is the unique number that can be used   to identify your network and your location.<img class="floatleft" src="images\40492735910_5e87817b99_c.jpg" alt="VPN" Style="float:left; width:14rem; padding-right: 1rem;"> Your original IP address becomes that of the connected VPN server when the application on your system is activated. Once your IP address is masked, you are then free to browse websites (that could potentially track your data) safely as your connection uses the IP address of a remote server, handled by the VPN provider. VPNs are also used by companies and schools to monitor users’ network traffic and restrict access to certain websites. All of this makes VPNs very useful for protecting your network traffic. 
+            </p>
+        <h3>Firewalls:</h3>
+            <p>
+                Firewalls examine all packets that travel through them and can drop/log provable attack packets. If a packet is scanned and it is not thought to be a provable attack, it is let through. Firewalls use filters to determine if packets are suspicious, provable or safe. There are different firewall methods varying in processing requirements and depth of inspection. We will look at 3 types.
+                
+                <figure style="text-align: center; float:right; padding-left: 100px;">
+                <img src="images\image-20160916-17008-19mncnn.jpg" alt="firewall" width="50%" height="auto">
+                
+            </figure>
+            </p>
+
+            
+            
+            <h4>Static Packet Filtering:</h4>
+                <p>
+                    Static packet filtering is inexpensive as it is very fast however, it examines one packet at a time, which is highly inefficient. It can examine the internet and transport layers of a packet but cannot stop many types of attacks. They are not used as main border firewalls anymore but can be used as pre-screening firewalls to alleviate some of the processing power required for main border firewalls.
+
+                </p>            
+
+            <h4>SPI:</h4>
+                <p> 
+                    (Stateful packet inspection) is the most common inspection method. The framework gives different packets different states, which have different security needs. When a connection is opened, thorough authentication is carried out; however, once it has already been opened, this is unnecessary and only light checking is required.
+                </p>
+            <h4>Deep Inspection Firewalls:</h4>
+
+                <p>
+                    SPI knows packet context (opening or opened connection) but only examines single packets, however DIFs look at streams of packets for patterns. They read all the packet layers including the higher graded security layers and examine with detail. They can use this to determine when attacks are hiding in ports/services. For example, they can inspect a message to port 80 and see if it is a http message or not. Attackers may use port 80 for illegal file sharing.</p>
+                    <p> 
+                        Administrators can set up filtering rules for specific applications which alleviates some of the processing power needed if an application is low-risk.
+                    </p>
+                </p>
+    </article>
+
+    <article>
+        <h3>Access Control </h3>
+        <p>
+            While there are many types of access control, the NCSC describes it as “A way of ensuring that only authorised users (or automated systems) can access data or services”. We can define it as a security technique and preventative measure, used in order to keep unauthorised parties from gaining access to a machine, network or information. Policy-driven, selective restriction is used until the user has been authenticated and authorised. Authentication is the verification that someone is who they claim to be (i.e. logging in to a bank account using a username and password) while authorisation means to compare the user's identity against the network or system policies and determine whether they should be allowed access.
+         </p>
+         <p>
+             By the enumeration and sensitivity setting of resources, you can restrict access to only the authorised users, preventing attackers from gaining access. Without authentication and authorization there is no security of data. Authentication and authorization work in tandem with one another as authentication is relatively pointless alone, especially when it comes to a network. However, access control, whether MAC, DAC, RBAC or ABAC, is also useless without strict enforcement or robust, well thought out policies. We can define a policy, in this context, as a set of rules, detailing who is allowed access to certain elements as well as the way in which those elements behave and are allocated; such as password policies in access management. Access management is the process in which security measures are put in place to protect data. A few examples are biometric systems, passwords and personal identification numbers (PINs). While you can allocate levels of access (also known as Access Permissions) user by user, the common and efficient practice is to determine roles that have levels of access. For example; a teacher will have more access to a school computer than a student, while an outsider will have no access whatsoever. Every resource should hold a strict policy to maintain security, which is a fundamental of cyber security.
+        </p>
+
+        <h4>Types of Network Access Control(NAC):</h4>
+        <p>There are 2 main types of network access control: pre admission and post admissions.
+        </p>
+
+        <h4>Pre Admission:
+        </h4>
+        <p>pre-admission NAC happens prior to network access being granted, such as  when a user or endpoint device begins to request access to the network(i.e. a login screen). The pre-admission NAC evaluates attempts that are made to access the network. It will only grant entry if the user or device is able to prove they are compliant with the security policies in place and have authorization to access the network otherwise they will not be allowed access. 
+
+        </p>
+
+        <h4>Post Admission:
+        </h4>
+        <p>Post-admission NAC happens within the network; specifically when the user or device tries to enter a different area of the network. If measures for pre admission access control fail, the post admission NAC measures are able to restrict the lateral movement within the network, limiting the potential damage that may be caused due to a cyber attack. A way to do this is by making a user re-authenticate themselves every time they attempt to move to a different area of the network.
+        </p>
+
+    </article>    
+    <article>
+        <h3>Wireless Network Security </h3>
+        <p>Wireless network security mainly protects wireless networks from attempts of access by unauthorized and malicious entities. Wireless network security is usually delivered through 
+            devices that provide a wireless signal This is typically a wireless router,  that encrypts wireless communication by default and makes it more secure, even if the wireless network may be compromised. This is because the hacker is not able to see the traffic/packet-in-transit content. To further increase the security of wireless network connections, wireless intrusion detection and prevention systems are used by alerting the wireless network administrator if there is an instance of a breach.
+            </p>
+
+    </article>
+
+    <article>
+        <h3>Intrusion  Detection Systems</h3> 
+        <p>inspection firewalls began as intrusion detection systems (IDS) and used to not drop packets. They instead notified firewall administrators of suspicious patterns, for them to take action."></p>
+
+       <p> IDSs have developed to a point where they can stop very highly suspicious traffic but must be implemented carefully to be effective. For example, DOS attacks can be detected and thwarted with high confidence.</p>
+        
+        <p>IDSs require extensive processing power and are made possible by application-specific integrated circuits (ASICs).
+         ASICs handle the deep inspection tasks with specialized hardware and are very fast, which is what makes DIFs feasible.
+        IDSs use detective control (not preventative or restorative) to log suspicious events. They can also occasionally send alarms to a firewall administrator.</p>
+
+
+    <h4>
+        Networked IDSs (NIDSs):
+    </h4>
+    <p>NIDSs are stand-alone device hardware or can be built into a switch/router. NIDSs can scan and filter all packets passing through them, allowing them to collect data on all ports if integrated into a switch or router, however NIDSs can only collect data for its portion of the network; any other portions are considered blind spots. They cannot filter encrypted packets.</p>
+    <h4>Host IDSs (HIDSs):</h4>
+
+    <p> Whilst NIDSs scan real time data HIDSs check history and event logs for unorthodox methods that may have passed through another firewall. They are operating system monitors and can detect events such as multiple failed logins, new account creations, additions of executables etc.
+        Compared to NIDSs they can provide much more highly detailed information for a specific host however, they can only view one host at a time and can be more easily attacked and disabled. </p>
+    
+
+
+
+
+        
+    </article>
+
+    <article>
+        <h3>Intrusion Prevention Systems(IPS)
+        </h3>
+        <p>Unlike IDSs, IPSs control the access to a network and set up policies to protect the network from abuse and cyberattacks. This is done by scanning network traffic and monitoring intrusion data to preemptively take measures to prevent attacks that may be developing (i.e. noticing an abnormal increase in network traffic, which may be a sign of a distributed denial of service attack).  </p>
+        <p>IPSs performs packet inspection in real time for every packet that travels through the network and if any suspicious or dangerous packets are found the IPSs will either terminate the TCP session and block the IP address or account that the packets originated from, preventing access to applications and resources on the device. They will reconfigure the firewall to prevent similar attacks or remove the malicious content that remains after a successful attack. There are 3 types of prevention:</p>
+
+        <ul>
+            <li><strong>Signature based</strong> - A defined set of patterns or signatures that match well known threats.
+
+            </li>
+            <li> <strong>Policy based</strong> - Predefined sets of rules that admins set up. Activity must follow these policies, otherwise the system will flag the activity and the admins can take action on what to do. 
+            </li>
+            <li>
+                <strong>Anomaly based</strong> - Monitors and corrects abnormal behaviours on the network by blocking access to the target immediately. 
+                </li>
+            
+        </ul>
+
+    </article>
+    
+    <article>
+        <h3>Network Vulnerabilities</h3>
+
+        <h4>Distributed Denial of Service (DDoS) Attacks:</h4>
+        <img src="images\800px-How-to-stop-a-ddos-attack.png" alt="ddos" class="floatright" style="width:20rem">
+        
+            <p>A distributed denial of service attack is an attempt to disrupt the flow of traffic of the targeted service, server or network by flooding it with internet traffic, leading to it being overwhelmed and slowed down to a snail's crawl. DDoS attacks are like an unexpected road block, causing a massive traffic jam; it's unwanted and annoying.</p> 
+
+            <p>Ddos attacks are conducted using machines infected with malware that also have a network connection to the internet. This allows the attacker to control those machines which are called bots. Multiple infected machines are together called a botnet and attackers use this botnet to overload the network or server by sending requests to the target's IP address. This is where the term denial of service comes into play as it is denying normal traffic from proceeding, like a road block(maybe more like a car crash). It is difficult to identify specific attack traffic and non-attack traffic as it is very similar. It is also sometimes impossible to separate an intentional flood of traffic and a legitimate spike in user traffic. The use of software tools that can track traffic are a big help when ascertaining why the network, server or service has a dip in performance as these tools can potentially inform you if the attacks are all originating from one IP address.</p>
+
+           <h4>Malware:</h4> 
+<p>
+    <img class="floatright" src="images\ransomware-2321665_960_720.webp" alt="malware"  style="width:50%;height:auto;margin-right:1rem;">Malware is often found on less than reputable sites, these sites are also often linked via spam emails. While filtering spam and avoiding risky sites is one method of prevention, antivirus, ad blockers and firewalls can often prevent infections, if these sites are accidentally visited. You should also avoid downloading any potentially malicious software and if your antivirus informs you about any software run that has been quarantined, rather than immediately flagging it as a false positive you should investigate its authenticity and potentially delete the quarantined download.
+   
+</p>
+
+<h4>Missing Data Encryption:</h4>
+<p>If data is not properly encrypted, iit can be easily accessed and tracked. This means that the data is able to be read before being sent further inside a private network that is protected by a firewall. Anyone with access to the firewall can change/manipulate the data therefore, it’s important to encrypt sensitive data.</p> 
+
+<h4>Wireless access vulnerability:</h4>
+<p>Wifi is convenient for connecting multiple devices without the use of cables and wires however due to this convenience it makes networks more vulnerable. If the wifi network is poorly secured(i.e. Not password locked/ doesn't require proper authorization to access), it can allow nearby malicious devices to connect. A wifi connection not being password protected means that any unauthorised/unknown devices which connect to it are readily able to view any and all incoming and outgoing traffic because the connection is unencrypted. It is important to use strong passwords for wifi connections and keep those strong passwords safe and protected by not randomly sharing it, making it visible for anyone to see and easy to guess. Organizations should also change passwords at set intervals to make them harder to crack and be aware of social engineering attacks, like shoulder surfing, spam emails and pharming, which are used to fool users into giving up private information. This obviously does not apply to just wireless networks but it is especially important for them.</p>
+
+
+
+     
+    </article>
+</main><!--Close main page content --> 
+
+    <div id="refdes">
+    
+<footer>
+     <!--References -->  
+     <ul>
+         <li>
+             Copyright free icons <a href="https://fontawesome.com/icons?d=gallery" target="_blank">font awesome </a>
+    
+         </li>
+         <li>
+            Danti, A., 2016. [image] Available at: <a href="https://theconversation.com/does-the-uk-need-or-even-want-a-great-british-firewall-65502" target="_blank">theconversation</a> [Accessed 7 May 2021].</li>
+         
+     <li>
+            Forcepoint. n.d. What is an Intrusion Prevention System (IPS)?. [online] Available at: <a href="https://www.forcepoint.com/cyber-edu/intrusion-prevention-system-ips#:~:text=An%20intrusion%20prevention%20system%20(IPS)%20is%20a%20form%20of%20network,detect%20and%20prevent%20identified%20threats.&text=The%20IPS%20reports%20these%20events,firewalls%20to%20prevent%20future%20attacks" target="_blank">forcepoint</a>
+            [Accessed 5 May 2021].
+         </li>
+         <li>
+            Kumar sr, S., 2017. How-to-stop-a-ddos-attack. [image] Available at: <a href="https://commons.wikimedia.org/wiki/File:How-to-stop-a-ddos-attack.png" target="_blank">wikimedia</a>
+         
+            [Accessed 7 May 2021].</li>
+         <li>
+            mahmoud hassan, m., n.d. antivirus. [image] Available at: <a href="https://www.publicdomainpictures.net/en/view-image.php?image=261650&picture=antivirus" target="_blank">publicdomainpictures</a>
+            [Accessed 7 May 2021].
+         </li>
+         <li>
+            N-able. 2019. Types of Network Security | N-able. [online] Available at: <a href="https://www.n-able.com/blog/types-of-network-security" target="_blank">n-able</a>
+            [Accessed 6 May 2021].
+         </li>
+         <li>
+            Ncsc.gov.uk. 2020. Virtual Private Networks (VPNs). [online] Available at: <a href="https://www.ncsc.gov.uk/collection/mobile-device-guidance/virtual-private-networks" target="_blank">NCSC</a>
+            [Accessed 5 May 2021].
+
+         </li>
+         <li>
+            Ncsc.gov.uk. 2021. Architecture and configuration. [online] Available at: <a href="https://www.ncsc.gov.uk/collection/10-steps-to-cyber-security/the-10-steps/network-security" target="_blank">NCSC </a>
+            [Accessed 5 May 2021].
+
+         </li>
+         <li>
+            Patterson, R., 2018. Virtual Private Network (VPN). [image] Available at: <a href="https://www.flickr.com/photos/136770128@N07/40492735910" target="_blank">flickr</a>
+            [Accessed 7 May 2021].
+
+         </li>
+         <li>
+            SilverStar, 2006. Sample-network-diagram. [image] Available at: <a href="https://en.wikipedia.org/wiki/File:Sample-network-diagram.png" target="_blank">wikipedia</a>
+            [Accessed 7 May 2021].
+         </li>
+         <li>
+            Tumisu, n.d. malware. [image] Available at: <a href="https://pixabay.com/illustrations/ransomware-virus-malware-hacker-2321665/" target="_blank">pixiabay</a>
+            [Accessed 7 May 2021].
+         </li>
+         <li>
+            vmware. 2021. What is network access control?. [online] Available at:  <a href="https://www.vmware.com/topics/glossary/content/network-access-control#:~:text=Network%20access%20control%20is%20the,out%20of%20a%20private%20network.&text=Effective%20network%20access%20control%20restricts,patches%20and%20anti%2Dintrusion%20software" target="_blank">vmware</a>
+         
+            [Accessed 6 May 2021].</li>
+         
+         
+         
+         
+         
+
+
+     </ul>  
+</footer>
+</div>
+</body>
+
+</html>
